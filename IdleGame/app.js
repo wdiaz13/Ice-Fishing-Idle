@@ -130,7 +130,7 @@ $(document).ready(function(){
             $("#buyLine").css("display", "none");
         }
     }
-
+    
     function switchMenu(menu){
         $(".menus").children().css("display", "none");
         $("." + menu).css("display", "block");
