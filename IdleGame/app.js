@@ -88,9 +88,9 @@ $(document).ready(function(){
         }
 
         if(line > 10){
-            $("#line").html("Line Length: " + line + "'")
+            $("#line").html("Line Length: " + line + "m")
         }else{
-            $("#line").html("Line Length: 10'")
+            $("#line").html("Line Length: 10m")
         }
 
     }
@@ -130,7 +130,7 @@ $(document).ready(function(){
             $("#buyLine").css("display", "none");
         }
     }
-    
+
     function switchMenu(menu){
         $(".menus").children().css("display", "none");
         $("." + menu).css("display", "block");
